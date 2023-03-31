@@ -6,7 +6,7 @@
 
 body {
   background: linear-gradient( 0deg, rgb(100, 240, 18) 0%, rgba(19, 216, 255, 0.853) 100%);
-  color: rgb(255, 255, 255);
+  color: violet
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
@@ -43,7 +43,7 @@ form button {
 }
 
 form button:hover {
-  background:skyblue;
+  background:rgb(135, 143, 235);
   color: white;
 }
 
@@ -60,7 +60,7 @@ form button:hover {
 
 .todo {
   margin: 0.5rem;
-  background: white;
+  background: rgb(255, 255, 255);
   color: black;
   font-size: 1.5rem;
   display: flex;
@@ -75,7 +75,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: skyblue;
+  background: rgb(175, 135, 235);
   color: white;
   border: none;
   padding: 1rem;
@@ -84,7 +84,7 @@ form button:hover {
 }
 
 .complete-btn {
-  background: rgb(59, 203, 228);
+  background: rgb(101, 59, 228);
 }
 
 .todo-item {
@@ -121,7 +121,7 @@ select {
 }
 
 select {
-  color: #47fff6;
+  color: #7247ff;
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
@@ -130,7 +130,7 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background: #47daff;
+  background: #9147ff;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -140,5 +140,5 @@ select {
 
 .select:hover::after {
   background: white;
-  color: #47b8ff;
+  color: #6f47ff;
 }
